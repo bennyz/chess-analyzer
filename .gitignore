@@ -1,0 +1,13 @@
+.vscode/
+deps/
+import_map.json
+lock.json
+deno.lock
+**/*.js.map
+**/*.d.ts
+**/coverage/
+**/dist/
+**/build/
+.deno/
+**/deno.lock
+

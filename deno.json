@@ -1,0 +1,21 @@
+{
+  "tasks": {
+    "dev": "deno run -A npm:vite",
+    "build": "deno run -A npm:vite build",
+    "preview": "deno run -A npm:vite preview"
+  },
+  "imports": {
+    "react": "https://esm.sh/react@18.2.0",
+    "react-dom": "https://esm.sh/react-dom@18.2.0",
+    "react/jsx-runtime": "https://esm.sh/react@18.2.0/jsx-runtime",
+    "react/jsx-dev-runtime": "https://esm.sh/react@18.2.0/jsx-dev-runtime",
+    "chess.js": "https://esm.sh/chess.js@1.0.0-beta.6",
+    "react-chessboard": "https://esm.sh/react-chessboard@4.3.0",
+    "@types/react": "https://esm.sh/@types/react@18.2.0",
+    "@types/react-dom": "https://esm.sh/@types/react-dom@18.2.0"
+  },
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "jsxImportSource": "react"
+  }
+}
